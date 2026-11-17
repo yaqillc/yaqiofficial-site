@@ -185,6 +185,21 @@ button, input { font: inherit; }
 .primary-button.outline { background: rgba(0,0,0,.12); color: var(--white); backdrop-filter: blur(4px); }
 
 .primary-button.outline:hover { background: var(--white); color: var(--black); }
+.home-announce {
+  margin: 28px auto 0;
+  max-width: 640px;
+  color: var(--white);
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .12em;
+  line-height: 1.7;
+  text-transform: uppercase;
+  text-shadow: 0 2px 12px rgba(0,0,0,.6);
+}
+
+.home-announce a { text-decoration: underline; text-underline-offset: 3px; }
+
+.home-announce a:hover { color: var(--silver); }
 
 .home-socials {
   position: absolute;
